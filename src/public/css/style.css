@@ -1,0 +1,170 @@
+body
+{
+    
+}
+
+
+
+    .btn-no{
+        border-radius:15px;
+        font-family:SansPt;
+        position: relative;
+        display: inline-block;
+        padding: 10px 30px;
+        color: #f0edc3;
+        letter-spacing: 4px;
+        font-size: 12px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: .5s;
+    }
+    .btn-no:hover{
+        background: #ae8867;
+        box-shadow: 0 0 10px #ae8867, 0 0 40px #ae8867, 0 0 80px #ae8867;
+        transition-delay: .4s;
+    }
+    .btn-no span{
+        position: absolute;
+        display:block;
+    }
+    
+    #sp5{
+        top: 0;
+        left:-100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg,transparent, #c5a87c);
+    }
+    
+    .btn-no:hover #sp5{
+        left: 100%;
+        transition: .5s;
+    }
+    
+    #sp7{
+        bottom: 0;
+        right:-100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg,transparent, #c5a87c);
+    }
+    
+    .btn-no:hover #sp7{
+        right: 100%;
+        transition: .6s;
+        transition-delay: .5s;
+    }
+    
+    #sp6{
+        top: -100%;
+        right:0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg,transparent, #c5a87c);
+    }
+    
+    .btn-no:hover #sp6{
+        top: 100%;
+        transition: .5s;
+        transition-delay: .2s;
+    }
+    
+    #sp8{
+        bottom: -100%;
+        left:0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg,transparent, #c5a87c);
+    }
+    
+    .btn-no:hover #sp8{
+        bottom: 100%;
+        transition: 1s;
+        transition-delay: .7s;
+    }
+    
+
+
+
+
+
+
+
+.btn-no{
+    background:none;
+    border-radius:15px;
+    font-family:SansPt;
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #f0edc3;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+}
+.btn-no:hover{
+    background: #ae8867;
+    box-shadow: 0 0 10px #ae8867, 0 0 40px #ae8867, 0 0 80px #ae8867;
+    transition-delay: .4s;
+}
+.btn-no span{
+    position: absolute;
+    display:block;
+}
+
+#sp1{
+    top: 0;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent, #c5a87c);
+}
+
+.btn-no:hover #sp1{
+    left: 100%;
+    transition: .5s;
+}
+
+#sp3{
+    bottom: 0;
+    right:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent, #c5a87c);
+}
+
+.btn-no:hover #sp3{
+    right: 100%;
+    transition: .6s;
+    transition-delay: .5s;
+}
+
+#sp2{
+    top: -100%;
+    right:0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent, #c5a87c);
+}
+
+.btn-no:hover #sp2{
+    top: 100%;
+    transition: .5s;
+    transition-delay: .2s;
+}
+
+#sp4{
+    bottom: -100%;
+    left:0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent, #c5a87c);
+}
+
+.btn-no:hover #sp4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: .7s;
+}

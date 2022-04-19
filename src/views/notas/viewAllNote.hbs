@@ -1,0 +1,36 @@
+<div class="row" style="background-color:#232629; border-radius:15px; color:aliceblue">
+  {{#each fNote}}
+  <div class="col-md-3" style="background-color:#232629; border-radius:15px; color:aliceblue">
+    <div class="card" style="background-color:#232629; border-radius:15px; color:aliceblue">
+      <div style="background-color:#232629; color:aliceblue; border-radius:15px;" class="card-body">
+        <h4 class="card-title d-flex justify-content-between align-items-center">
+          {{ title }} 
+          <a  class="btn-no" href="/notas/edit/{{_id}}">
+                <span id="sp5"></span><span id="sp6"></span>
+                <span id="sp7"></span><span id="sp8"></span>
+                Edit
+            </a>
+        </h4>
+        <p>{{ description }} </p>
+        <!-- DELETE REQUEST -->
+        <form action="/notas/delete/{{_id}}?_method=DELETE" method="POST">
+          <input type="hidden" name="_method" value="DELETE">
+          <button type="submit" class="btn-no">
+                <span id="sp1"></span><span id="sp2"></span>
+                <span id="sp3"></span><span id="sp4"></span>
+                Delete
+            </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  {{else}}
+  <div class="card mx-auto">
+    <div class="card-body">
+      <h1>Hello {{user.name}}</h1>
+      <p clsss="lead">There are not Notes yet.</p>
+      <a href="/notas/add" class="btn btn-success btn-block">Create One!</a>
+    </div>
+  </div>
+  {{/each}}
+</div>
